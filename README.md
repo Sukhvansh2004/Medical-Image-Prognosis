@@ -12,7 +12,7 @@ The pipeline performs the following high-level steps:
    - Generates standardized lists of input and output file paths using `convert.py`.  
 3. **Image Enhancement & Normalization**  
    - Applies Contrast Limited Adaptive Histogram Equalization (CLAHE), MSRCR, and white‑stripe normalization with `normalize.py` and `normalize2.py`.  
-   - `msrcr.py` implements the Multi‑Scale Retinex with Color Restoration algorithm, and `msrcr_sample.py` demonstrates resampling to required aspect ratios before enhancement.  
+   - `msrcr.py` implements the Multi‑Scale Retinex with Color Restoration algorithm and demonstrates resampling to required aspect ratios before enhancement.  
 4. **Masking & Skull‑Stripping**  
    - Generates or applies brain masks via `mask.py` for region‑of‑interest extraction.  
 5. **Registration to MNI Template**  
