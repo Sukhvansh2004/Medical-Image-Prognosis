@@ -1,3 +1,6 @@
 [submodule "BrLP"]
 	path = BrLP
 	url = https://github.com/Sukhvansh2004/BrLP.git
+[submodule "turboprep"]
+	path = turboprep
+	url = https://github.com/LemuelPuglisi/turboprep.git
